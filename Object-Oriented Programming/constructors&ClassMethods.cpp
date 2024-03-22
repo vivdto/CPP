@@ -3,7 +3,7 @@
 using namespace std;
 
 class YoutubeChannel {
-public:
+public:f
     string Name; // Attributes
     string OwnerName;
     int subscriberCount;
