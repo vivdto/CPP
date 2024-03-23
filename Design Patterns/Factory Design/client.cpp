@@ -12,6 +12,5 @@ int main ()
         vehicle = new Car();
     }
     else if
-    }
     return 0;
-}
+    }
