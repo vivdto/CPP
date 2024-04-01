@@ -1,3 +1,6 @@
+//Time Complexity --> O(n^3) -- Brute Force--> Taking all posible.
+
+
 #include<iostream>
 using namespace std;
 
