@@ -1,3 +1,11 @@
+/*As Kadane’s algorithm requires atleast one positive integer to produce the right input
+
+
+Kadane's Algorithm is an iterative dynamic programming algorithm. It calculates the maximum sum subarray ending at a particular position by using the maximum sum subarray ending at the previous position. Don't worry you will learn about Dynamic Programming later in this course.
+
+*/
+
+
 //O(N) --> Time&Space.
 
 
