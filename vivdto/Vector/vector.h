@@ -3,6 +3,8 @@
 
 using namespace std;
 
+template<typename T>
+
 class Vector {
 
 // Data Members
@@ -20,7 +22,7 @@ public:
 Vector(int max_size = 1) {
     cs = 0; 
     ms = max_size; 
-    arr = new int[ms];
+    arr = new T[ms];
 }
 
 // Method to add an element to the end of the vector
@@ -28,9 +30,9 @@ void push_back(int d) {
     // Check if the vector is full, if yes, double the capacity
     if (cs == ms) {
         // Create a new array with doubled capacity and copy elements
-        int *oldArr = arr;
+        T *oldArr = arr;
         ms = 2 * ms;
-        arr = new int[ms];
+        arr = new T[ms];
 
         for (int i = 0; i < cs; i++) {
             arr[i] = oldArr[i];
@@ -51,7 +53,7 @@ void pop_back() {
 }
 
 // Method to check if the vector is empty
-bool isEmpty() {
+T isEmpty() {
     return cs == 0;
 }
 
@@ -61,17 +63,17 @@ int front() {
 }
 
 // Method to access the last element of the vector
-int back() {
+T back() {
     return arr[cs - 1];
 }
 
 // Method to access an element at a specified index
-int at(int i) {
+T at(int i) {
     return arr[i];
 }
 
 // Method to get the current size of the vector
-int size() {
+T size() {
     return cs;
 }
 

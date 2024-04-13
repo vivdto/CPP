@@ -4,6 +4,19 @@ using namespace std;
 
 
 int main() {
+
+    Vector<char> vc;
+    vc.push_back('a');
+    vc.push_back('b');
+    vc.push_back('c');
+
+    for (int i = 0; i<vc.size(); i++)
+    {
+        cout<< vc[i] <<endl;
+    }
+
+Vector<int> v(5);
+
     Vector v;  // Use the constructor with default argument (maximum size 1)
     v.push_back(1);
     v.push_back(2);
