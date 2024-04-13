@@ -110,7 +110,7 @@ int main() {
 }
 
 
-// CONST -- Constant Function.
+// CONST -- Constant
 
 /*Amazon SDE 1:
 
